@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head lang="en">
     <meta charset="UTF-8">
     <title>
@@ -14,38 +14,56 @@
 
 </head>
 <body>
+<script src="js/jquery-2.1.3.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+
 <!--[if lt IE 7]>
     <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
 <![endif]-->
 
-<div class="contentframe">
+<div class="container contentframe">
 
 
     <!-- Nav Menu -->
+    <div class="row">
+    <div class="span12">
 
     <section class="navheader">
-        <h1>Hi, I'm Liam</h1>
-        <h3>Welcome to my page.</h3>
         <div class="navigation">
-            <ul class="fa-ul">
-                <li><i class="fa-li fa fa-square"></i><a href="index.html">home</a></li>
-                <li><i class="fa-li fa fa-square"></i><a href="http://www.liamsargent.me">Blog</a></li>
-                <li><i class="fa-li fa fa-square"></i><a href="projects.html">projects</a></li>
-                <li><i class="fa-li fa fa-square"></i><a href="me.html">about me</a></li>
-                <li><i class="fa-li fa fa-square"></i><a href="contact.html">contact</a></li>
-            </ul>
+            <div class="row">
+                <div class="span8">
+                    <ul class="nav nav-pills fa-ul">
+                        <li class="active"><a href="#">home</a></li>
+                        <li><a href="http://www.liamsargent.me">Blog</a></li>
+                        <li><a href="#">projects</a></li>
+                        <li><a href="#">about me</a></li>
+                        <li><a href="#">contact</a></li>
+                    </ul>
+                </div>
+            </div>
         </div>
+        <div class="page-header">
+            <h1>Hi, I'm Liam </h1>
+        </div>
+        <div class="container">
+    </div>
     </section>
+    </div>
 
-    <section class="infoframe">
+    <div class="infoframe span8">
         <p>My name is Liam Sargent. I am a 21 year old software developer and audio technology geek. I have a wide variety
         of interests and hobbies that ensure that I continue to learn more about the world every day. Check out my projects on
         <a href="https://www.github.com/themailman05"><strong>Github</strong></a><i class="fa fa-github-alt fa-2x"></i> and <a href="https://soundcloud.com/stellarstop">Soundcloud</a>
         to see what I am up to!</p>
-    </section>
+    </div>
 
 </div>
-
+    <div id="wrap">
+        <div id="main" class="container clear-top">
+            <div> &copy; Liam sargent, 2014</div>
+        </div>
+    </div>
+    <footer class="footer"></footer>
+</div>
 </body>
 </html>
