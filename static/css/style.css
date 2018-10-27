@@ -17,6 +17,7 @@ html,
 body {
     height:100%;
     font-family: 'Puritan', sans-serif;
+    font-size: 14pt;
     position:relative;
 }
 #stuff {
