@@ -33,13 +33,15 @@
             <div class="col-lg-1"></div>
             <div class="leftcol col-lg-4">
                 <div class="contentbox" id="bio">
+                  <div class="wordbox">
                     <h3>I solve real problems in the digital world.</h3>
                     <h4>My passions lie at the intersection of the technology and music.</h4>
                     <h4>Currently, I am working on a real-time collaborative audio creation platform</h4>
-                    <p>You can reach me at <a href='mailto:liam.t.sargent@gmail.com'>liam.t.sargent@gmail.com</a>
-                    <div class="a"><a href="static/LiamSargent_CV.pdf" class="btn btn-small" type="button"><h3>Resume</h3></a></div>
-
+                    <p>I can be reached via <a href='mailto:liam.t.sargent@gmail.com'>liam.t.sargent@gmail.com</a>
+                  </div>
                 </div>
+                
+                    <div class="a"><a href="static/LiamSargent_CV.pdf" class="btn" type="button"><h3>Resume</h3></a></div>
             </div>
             <div class="col-lg-1"> </div>
             <div class="circular"></div>
@@ -58,7 +60,7 @@
         <div class="row">
                         <div class="leftcol col-lg-4">
             <div class="contentbox hoverimg" id="internetsdotcool">
-                <a href="http://internets.cool:8080"><h3>internets.cool</h3></a>
+                <div class="wordbox"><a href="http://internets.cool:8080"><h3>internets.cool</h3></a>
                 <p>
                     Internets dot cool is my work-in-progress music website. It is a place where I experiment with content delivery, audio visualization, and marketing.
                 </p>
@@ -68,11 +70,12 @@
                 <p>
                     One day, I dream of this site being a social media platform for musicians and music enthusiasts.
                 </p>
-
+</div>
             </div>
         </div>
               <div class="leftcol col-lg-4">
                 <div class="contentbox hoverimg" id="dciscoresbot">
+                   <div class="wordbox">
                     <a href="https://github.com/themailman05/DCI_SCORES_BOT"><h3>DCI Scores Bot</h3></a>
                     <p>
                         DCI Scores Bot is a bot which posts the results of Drum Corps International competition results to
@@ -81,11 +84,13 @@
                     <p>
                         Built using Python, PRAW, and BeautifulSoup.
                     </p>
+                   </div>
                 </div>
 
             </div>
             <div class="leftcol col-lg-4">
                 <div class="contentbox hoverimg" id="takeroot">
+                    <div class="wordbox">
                     <a href="https://github.com/Aquaballin/HackingVeggies"><h3>TakeRoot</h3></a>
                     <p>
                         TakeRoot is an android app that allows users to post information about their home-grown produce.
@@ -96,6 +101,7 @@
                     </p>
 
                     <p>Built at BluestoneHacks 2015 using Android and Parse</p>
+                    </div>
                 </div>
 
             </div>
@@ -103,6 +109,7 @@
         <div class="row">
             <div class="leftcol col-lg-4">
                 <div class="contentbox hoverimg" id="jmuse">
+                  <div class="wordbox">
                     <a href="http://educ.jmu.edu/~sargenlt/jmuse"><h3>JMUSE Player</h3></a>
                     <p>
                         JMUSE is a many-format web browser audio player and audio visualizer.
@@ -111,9 +118,7 @@
                         JMUSE allows for WAV, MP3, MP4, FLAC, and OGG playback using the JS WebAudio API. The WebAudio API
                         is used in conjunction with an HTML5 canvas element to provide hardware accelerated FFT visualization.
                     </p>
-                    <p>
-                        Created in conjunction with three other JMU students in March 2015 for CS345, Software Engineering.
-                    </p>
+                </div>
 
                 </div>
             </div>
@@ -122,7 +127,21 @@
                     <img src="static/img/scrn/internetsdotcool.png" style="width:100%" id="centerimg">
                 </div>
             </div>
-
+        <div class="leftcol col-lg-4">
+                <div class="contentbox hoverimg" id="syncspin">
+                  <div class="wordbox">
+                    <a href="http://syncsp.in"><h3>Syncspin</h3></a>
+                    <p>
+                        Syncspin is a music streaming web application that uses a voting system and a recommendation engine for crowdsourced curation of a playlist.
+                        Created with parties and large events in mind, Syncspin allows many people to collaborate on a playlist in real time.
+                    </p>
+                    <p>
+                        Syncspin won "Best use of Intel Mashery API" at HackGT 2014.
+                    </p>
+                  </div>
+                </div>
+            </div>
+ 
             <script>
                 $(document).ready(function() {
                     $(".hoverimg").hover(
@@ -137,39 +156,8 @@
 
 
         </div>
-        <div class="leftcol col-lg-4">
-            <div class="contentbox hoverimg" id="playtrate">
-                <h3>PlaytRate</h3>
-                <p>
-                    PlaytRate is a web application which mines twitter data for mentions of a Yelp-listed business, performs
-                    sentiment analysis on the tweets, and calculates a numeric score in the form of "golden plates"
-                </p>
-                <p>
-                    Built using the Beats Music API, node.js, bootstrap, and socket.io for the real time voting system.
-                </p>
-                <p>
-                    Syncspin won "Best use of Intel Mashery API" at HackGT 2014.
-                </p>
-
-            </div>
-        </div>
-        <div class="leftcol col-lg-4">
-                <div class="contentbox hoverimg" id="syncspin">
-                    <a href="http://syncsp.in"><h3>Syncspin</h3></a>
-                    <p>
-                        Syncspin is a music streaming web application that uses a voting system and a recommendation engine for crowdsourced curation of a playlist.
-                        Created with parties and large events in mind, Syncspin allows many people to collaborate on a playlist in real time.
-                    </p>
-                    <p>
-                        Built using the Beats Music API, node.js, bootstrap, and socket.io for the real time voting system.
-                    </p>
-                    <p>
-                        Syncspin won "Best use of Intel Mashery API" at HackGT 2014.
-                    </p>
-
-                </div>
-            </div>
        
+      
     </div>
 </div>
 
@@ -183,7 +171,7 @@
             <div class="col-lg-1"></div>
             <div class="leftcol col-lg-4">
                 <div class="contentbox" id="musicstuff">
-                    <iframe width="100%" height="450" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/14598291&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+                    <iframe width="100%" height="350" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/users/14598291&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
                 </div>
                 <div class="contentbox" text-align=left">
                     <p>I make electronic music from house to trip-hop, dark to sunny, loud to reserved.</p>
