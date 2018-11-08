@@ -59,7 +59,10 @@ body {
     border-radius: 250px;
     -webkit-border-radius: 250px;
     -moz-border-radius: 250px;
-    background: url(http://i.imgur.com/r06JuXq.png) no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size:contain;
+    background: url(../img/me.jpg) no-repeat;
     box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
     -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -68,11 +71,6 @@ body {
     clear: none;
 }
 
-.circular:hover{
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-}
 
 .circular-2 {
     margin-left:auto;
